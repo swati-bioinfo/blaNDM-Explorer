@@ -75,7 +75,7 @@ meta, vf, mf, am = load_data()
 
 st.sidebar.title("blaNDM Explorer")
 st.sidebar.markdown("Interactive analysis of 250 blaNDM sequences from *K. pneumoniae*")
-page = st.sidebar.radio("Page", ["Overview", "Interactive Tree", "Mutation Analysis", "Variant Distribution", "Combined Figure"])
+page = st.sidebar.radio("Page", ["Overview", "Interactive Tree", "Mutation Analysis", "Variant Distribution", "Combined Figure", "Conclusions"])
 
 if page == "Overview":
     st.title("blaNDM Phylogeny & Mutation Analysis")
@@ -220,3 +220,76 @@ elif page == "Combined Figure":
         st.image(str(path), caption="Phylogenetic Tree + Mutation Heatmap", use_container_width=True)
     else:
         st.warning("combined_figure.png not found — run scripts/10_combine_figure.py first")
+
+elif page == "Conclusions":
+    st.title("Key Conclusions")
+
+    st.markdown("---")
+    c1, c2, c3 = st.columns(3)
+    c1.metric("Best-fit Model", "HKY+G4", "by BIC")
+    c2.metric("Bootstrap Correlation", "0.990", "1000 replicates")
+    c3.metric("Parsimony-Informative", "1,343", "59.1% of sites")
+
+    st.markdown("---")
+
+    with st.container(border=True):
+        st.subheader("1. The 789-795 Insertion is Near-Universal")
+        st.markdown("""
+        **99.2%** of sequences carry a 4-nucleotide insertion (G,G,T,T) at positions 789-795 relative to the NDM-1 reference.
+        This insertion occurred early in the divergence of *K. pneumoniae* blaNDM and is now a defining feature of the circulating population —
+        only 2 out of 250 sequences match the ancestral NDM-1 pattern.
+        """)
+
+    with st.container(border=True):
+        st.subheader("2. Two Major Clades Dominate the Population")
+        col_a, col_b = st.columns(2)
+        with col_a:
+            st.markdown("**Clade A** — Insertion Only")
+            st.markdown("89 sequences (35.5%)")
+            st.markdown("789-795 insertion without additional defining mutations. Includes NDM-5, NDM-7, NDM-50, NDM-29, NDM-9.")
+        with col_b:
+            st.markdown("**Clade B** — Insertion + G941T + A1294C")
+            st.markdown("65 sequences (26.0%)")
+            st.markdown("Derived from Clade A with two additional substitutions. Predominantly NDM-1 and NDM-5 sub-variants. Forms a well-supported subcluster.")
+
+    with st.container(border=True):
+        st.subheader("3. High Sequence Redundancy")
+        st.markdown("""
+        **64.4%** of sequences (161/250) are identical after alignment, collapsing to just **90 unique sequence types**.
+        57 additional low-frequency variant patterns represent ongoing diversification. This pattern strongly suggests extensive
+        clonal expansion of a limited number of highly successful NDM variants rather than independent acquisition events.
+        """)
+
+    with st.container(border=True):
+        st.subheader("4. NDM-63 is Deeply Divergent")
+        st.markdown("""
+        The two NDM-63 sequences (OR667647.1, NG_244540.1) form a distinct outgroup with **~0.685 substitutions/site**
+        from the main clade — over **100× more divergent** than typical within-clade distances. This suggests either
+        an early divergence event predating the main radiation, or a separate acquisition from a distinct bacterial source.
+        """)
+
+    with st.container(border=True):
+        st.subheader("5. Prototypical NDM-1 is Rare in the Current Population")
+        st.markdown("""
+        Only **2 out of 250 sequences** (0.8%) match the ancestral NDM-1 pattern (FN396876, first reported in 2009).
+        The circulating population has diverged substantially in the intervening years, dominated by the 789-795
+        insertion-carrying variants. The reference NDM-1, while useful as a baseline for mutation calling, is not
+        representative of contemporary clinical isolates.
+        """)
+
+    with st.container(border=True):
+        st.subheader("6. Data Quality: Contamination & Limitations")
+        col_q1, col_q2 = st.columns(2)
+        with col_q1:
+            st.markdown("**⚠️ Contamination (~7-10 seqs)**")
+            st.markdown("KPC-2, ompK porin genes, and plasmid sequences were misidentified as blaNDM in the NCBI query.")
+            st.markdown("**⚠️ >50% gaps: 243 seqs**")
+            st.markdown("Expected — indel-rich alignment creates many gap positions relative to NDM-1 reference.")
+        with col_q2:
+            st.markdown("**⚠️ Composition failure: 19 seqs**")
+            st.markdown("Base composition significantly differs from model expectation. May indicate contamination or sequencing bias.")
+            st.markdown("**⚠️ No geographic data**")
+            st.markdown("Country and year metadata are unavailable. Temporal and phylogeographic analysis is not possible.")
+
+    st.markdown("---")
+    st.caption("Report generated from the blaNDM Experiment pipeline | 250 K. pneumoniae genomic DNA sequences | Data analyzed May 2026")
