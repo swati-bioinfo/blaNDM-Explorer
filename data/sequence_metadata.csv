@@ -1,0 +1,251 @@
+original_id,short_id,accession,organism,country,year
+"OR667647.1 Klebsiella pneumoniae strain FI-110223 subclass B1 metallo-beta-lactamase NDM-63 (blaNDM) gene, blaNDM-63 allele, complete cds",KpNDM_0001_Unknown_Unknown,OR667647.1,Unknown,Unknown,Unknown
+"PX136048.1 Klebsiella pneumoniae strain PD163 subclass B1 metallo-beta-lactamase NDM-85 (blaNDM) gene, blaNDM-85 allele, complete cds",KpNDM_0002_Unknown_Unknown,PX136048.1,Unknown,Unknown,Unknown
+"MZ419363.1 Klebsiella pneumoniae strain NKP75 subclass B1 metallo-beta-lactamase NDM-4 (blaNDM) gene, blaNDM-4 allele, complete cds",KpNDM_0003_Unknown_Unknown,MZ419363.1,Unknown,Unknown,Unknown
+"MZ419362.1 Klebsiella pneumoniae strain NKP171 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0004_Unknown_Unknown,MZ419362.1,Unknown,Unknown,Unknown
+"MZ419361.1 Klebsiella pneumoniae strain NKP170 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0005_Unknown_Unknown,MZ419361.1,Unknown,Unknown,Unknown
+"MZ419360.1 Klebsiella pneumoniae strain NKP103 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0006_Unknown_Unknown,MZ419360.1,Unknown,Unknown,Unknown
+"MZ419359.1 Klebsiella pneumoniae strain NKP62 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0007_Unknown_Unknown,MZ419359.1,Unknown,Unknown,Unknown
+"MZ419358.1 Klebsiella pneumoniae strain NKP20 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0008_Unknown_Unknown,MZ419358.1,Unknown,Unknown,Unknown
+"MZ419357.1 Klebsiella pneumoniae strain NKP127 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0009_Unknown_Unknown,MZ419357.1,Unknown,Unknown,Unknown
+"MZ419356.1 Klebsiella pneumoniae strain NKP100 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0010_Unknown_Unknown,MZ419356.1,Unknown,Unknown,Unknown
+"MZ419355.1 Klebsiella pneumoniae strain NKP85 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0011_Unknown_Unknown,MZ419355.1,Unknown,Unknown,Unknown
+"NZ_JBPTMF010000328.1 Klebsiella pneumoniae strain KP187 contig00329, whole genome shotgun sequence",KpNDM_0012_Unknown_Unknown,NZ_JBPTMF010000328.1,Unknown,Unknown,Unknown
+"NG_049326.1 Klebsiella pneumoniae pKpANDM-1 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-1, complete CDS",KpNDM_0013_Unknown_Unknown,NG_049326.1,Unknown,Unknown,Unknown
+"NG_049327.1 Klebsiella pneumoniae subsp. pneumoniae kpn/78 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-10, complete CDS",KpNDM_0014_Unknown_Unknown,NG_049327.1,Unknown,Unknown,Unknown
+"KX249707.1 Klebsiella pneumoniae strain 2 beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0015_Unknown_Unknown,KX249707.1,Unknown,Unknown,Unknown
+"KY074638.1 Klebsiella pneumoniae strain 12904 metallo-beta-lactamase NDM (blaNDM) gene, complete cds",KpNDM_0016_Unknown_Unknown,KY074638.1,Unknown,Unknown,Unknown
+"MH450214.1 Klebsiella pneumoniae subclass B1 metallo-beta-lactamase NDM-23 (blaNDM) gene, blaNDM-23 allele, complete cds",KpNDM_0017_Unknown_Unknown,MH450214.1,Unknown,Unknown,Unknown
+"NG_060570.1 Klebsiella pneumoniae 1631112 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-23, complete CDS",KpNDM_0018_Unknown_Unknown,NG_060570.1,Unknown,Unknown,Unknown
+"MG773521.1 Klebsiella pneumoniae strain ASKNPKP2 New Delhi metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0019_Unknown_Unknown,MG773521.1,Unknown,Unknown,Unknown
+"MG773522.1 Klebsiella pneumoniae strain ASKNPKP4 New Delhi metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0020_Unknown_Unknown,MG773522.1,Unknown,Unknown,Unknown
+"MG773523.1 Klebsiella pneumoniae strain ASKNPKP5 New Delhi metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0021_Unknown_Unknown,MG773523.1,Unknown,Unknown,Unknown
+"MG773524.1 Klebsiella pneumoniae strain ASKNPKP7 New Delhi metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0022_Unknown_Unknown,MG773524.1,Unknown,Unknown,Unknown
+"MG773525.1 Klebsiella pneumoniae strain ASKNPKP8 New Delhi metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0023_Unknown_Unknown,MG773525.1,Unknown,Unknown,Unknown
+"MG773526.1 Klebsiella pneumoniae strain ASKNPKP12 New Delhi metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0024_Unknown_Unknown,MG773526.1,Unknown,Unknown,Unknown
+"MG773527.1 Klebsiella pneumoniae strain ASKNPKP13 New Delhi metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0025_Unknown_Unknown,MG773527.1,Unknown,Unknown,Unknown
+"MG773528.1 Klebsiella pneumoniae strain ASKNPKP15 New Delhi metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0026_Unknown_Unknown,MG773528.1,Unknown,Unknown,Unknown
+"MG773529.1 Klebsiella pneumoniae strain ASKNPKP17 New Delhi metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0027_Unknown_Unknown,MG773529.1,Unknown,Unknown,Unknown
+"MG773530.1 Klebsiella pneumoniae strain ASKNPKP18 New Delhi metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0028_Unknown_Unknown,MG773530.1,Unknown,Unknown,Unknown
+"MK263176.1 Klebsiella pneumoniae subsp. pneumoniae strain KP14B subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0029_Unknown_Unknown,MK263176.1,Unknown,Unknown,Unknown
+"MG701328.1 Klebsiella pneumoniae strain EK580 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0030_Unknown_Unknown,MG701328.1,Unknown,Unknown,Unknown
+"MK425027.1 Klebsiella pneumoniae strain ASKPNKP1 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0031_Unknown_Unknown,MK425027.1,Unknown,Unknown,Unknown
+"MK425028.1 Klebsiella pneumoniae strain ASKPNKP3 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0032_Unknown_Unknown,MK425028.1,Unknown,Unknown,Unknown
+"MK425029.1 Klebsiella pneumoniae strain ASKPNKP6 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0033_Unknown_Unknown,MK425029.1,Unknown,Unknown,Unknown
+"MK425030.1 Klebsiella pneumoniae strain ASKPNKP9 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0034_Unknown_Unknown,MK425030.1,Unknown,Unknown,Unknown
+"MK425031.1 Klebsiella pneumoniae strain ASKPNKP16 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0035_Unknown_Unknown,MK425031.1,Unknown,Unknown,Unknown
+"MK425032.1 Klebsiella pneumoniae strain ASKPNKP19 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0036_Unknown_Unknown,MK425032.1,Unknown,Unknown,Unknown
+"MK425033.1 Klebsiella pneumoniae strain ASKPNKP20 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0037_Unknown_Unknown,MK425033.1,Unknown,Unknown,Unknown
+"MK425034.1 Klebsiella pneumoniae strain ASKPNKP21 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0038_Unknown_Unknown,MK425034.1,Unknown,Unknown,Unknown
+"MK425036.1 Klebsiella pneumoniae strain ASKPNKP23 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0039_Unknown_Unknown,MK425036.1,Unknown,Unknown,Unknown
+"MK425037.1 Klebsiella pneumoniae strain ASKPNKP24 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0040_Unknown_Unknown,MK425037.1,Unknown,Unknown,Unknown
+"MK425038.1 Klebsiella pneumoniae strain ASKPNKP27 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0041_Unknown_Unknown,MK425038.1,Unknown,Unknown,Unknown
+"MK425039.1 Klebsiella pneumoniae strain ASKPNKP28 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0042_Unknown_Unknown,MK425039.1,Unknown,Unknown,Unknown
+"MK425040.1 Klebsiella pneumoniae strain ASKPNKP29 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0043_Unknown_Unknown,MK425040.1,Unknown,Unknown,Unknown
+"MK425041.1 Klebsiella pneumoniae strain ASKPNKP32 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0044_Unknown_Unknown,MK425041.1,Unknown,Unknown,Unknown
+"MK425042.1 Klebsiella pneumoniae strain ASKPNKP33 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0045_Unknown_Unknown,MK425042.1,Unknown,Unknown,Unknown
+"MK425043.1 Klebsiella pneumoniae strain ASKPNKP34 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0046_Unknown_Unknown,MK425043.1,Unknown,Unknown,Unknown
+"MK425044.1 Klebsiella pneumoniae strain ASKPNKP35 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0047_Unknown_Unknown,MK425044.1,Unknown,Unknown,Unknown
+"MK425035.1 Klebsiella pneumoniae strain ASKPNKP22 subclass B1 metallo-beta-lactamase NDM-28 (blaNDM) gene, blaNDM-28 allele, complete cds",KpNDM_0048_Unknown_Unknown,MK425035.1,Unknown,Unknown,Unknown
+"MK425045.1 Klebsiella pneumoniae strain ASKPNKP2 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0049_Unknown_Unknown,MK425045.1,Unknown,Unknown,Unknown
+"MK425046.1 Klebsiella pneumoniae strain ASKPNKP4 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0050_Unknown_Unknown,MK425046.1,Unknown,Unknown,Unknown
+"MK425047.1 Klebsiella pneumoniae strain ASKPNKP5 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0051_Unknown_Unknown,MK425047.1,Unknown,Unknown,Unknown
+"MK425048.1 Klebsiella pneumoniae strain ASKPNKP7 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0052_Unknown_Unknown,MK425048.1,Unknown,Unknown,Unknown
+"MK425049.1 Klebsiella pneumoniae strain ASKPNKP8 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0053_Unknown_Unknown,MK425049.1,Unknown,Unknown,Unknown
+"MK425050.1 Klebsiella pneumoniae strain ASKPNKP12 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0054_Unknown_Unknown,MK425050.1,Unknown,Unknown,Unknown
+"MK425051.1 Klebsiella pneumoniae strain ASKPNKP13 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0055_Unknown_Unknown,MK425051.1,Unknown,Unknown,Unknown
+"MK425052.1 Klebsiella pneumoniae strain ASKPNKP14 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0056_Unknown_Unknown,MK425052.1,Unknown,Unknown,Unknown
+"MK425053.1 Klebsiella pneumoniae strain ASKPNKP15 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0057_Unknown_Unknown,MK425053.1,Unknown,Unknown,Unknown
+"MK425054.1 Klebsiella pneumoniae strain ASKPNKP17 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0058_Unknown_Unknown,MK425054.1,Unknown,Unknown,Unknown
+"MK425055.1 Klebsiella pneumoniae strain ASKPNKP18 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0059_Unknown_Unknown,MK425055.1,Unknown,Unknown,Unknown
+"MK425056.1 Klebsiella pneumoniae strain ASKPNKP25 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0060_Unknown_Unknown,MK425056.1,Unknown,Unknown,Unknown
+"MK425057.1 Klebsiella pneumoniae strain ASKPNKP26 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0061_Unknown_Unknown,MK425057.1,Unknown,Unknown,Unknown
+"MK425058.1 Klebsiella pneumoniae strain ASKPNKP31 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0062_Unknown_Unknown,MK425058.1,Unknown,Unknown,Unknown
+"MK425059.1 Klebsiella pneumoniae strain ASKPNKP10 subclass B1 metallo-beta-lactamase NDM-7 (blaNDM) gene, blaNDM-7 allele, complete cds",KpNDM_0063_Unknown_Unknown,MK425059.1,Unknown,Unknown,Unknown
+"MK425060.1 Klebsiella pneumoniae strain ASKPNKP11 subclass B1 metallo-beta-lactamase NDM-7 (blaNDM) gene, blaNDM-7 allele, complete cds",KpNDM_0064_Unknown_Unknown,MK425060.1,Unknown,Unknown,Unknown
+"MK425061.1 Klebsiella pneumoniae strain ASKPNKP30 subclass B1 metallo-beta-lactamase NDM-7 (blaNDM) gene, blaNDM-7 allele, complete cds",KpNDM_0065_Unknown_Unknown,MK425061.1,Unknown,Unknown,Unknown
+"NG_064729.1 Klebsiella pneumoniae ASKPNKP22 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-28, complete CDS",KpNDM_0066_Unknown_Unknown,NG_064729.1,Unknown,Unknown,Unknown
+"MF379693.1 Klebsiella pneumoniae strain CDBT NT NP002 carbapenemase (blaNDM) gene, complete cds",KpNDM_0067_Unknown_Unknown,MF379693.1,Unknown,Unknown,Unknown
+"MH986670.1 Klebsiella pneumoniae strain 18AR0740 subclass B1 metallo-beta-lactamase NDM-25 (blaNDM) gene, blaNDM-25 allele, complete cds",KpNDM_0068_Unknown_Unknown,MH986670.1,Unknown,Unknown,Unknown
+"NG_066711.1 Klebsiella pneumoniae 18AR0740 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-25, complete CDS",KpNDM_0069_Unknown_Unknown,NG_066711.1,Unknown,Unknown,Unknown
+"MT462582.1 Klebsiella pneumoniae strain KJ10 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0070_Unknown_Unknown,MT462582.1,Unknown,Unknown,Unknown
+"MN786376.1 Klebsiella pneumoniae strain NC1 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0071_Unknown_Unknown,MN786376.1,Unknown,Unknown,Unknown
+"MN786377.1 Klebsiella pneumoniae strain NC28 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0072_Unknown_Unknown,MN786377.1,Unknown,Unknown,Unknown
+"MN786378.1 Klebsiella pneumoniae strain P73 subclass B1 metallo-beta-lactamase NDM-7 (blaNDM) gene, blaNDM-7 allele, complete cds",KpNDM_0073_Unknown_Unknown,MN786378.1,Unknown,Unknown,Unknown
+"NG_049333.1 Klebsiella pneumoniae 1121740 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-16a, complete CDS",KpNDM_0074_Unknown_Unknown,NG_049333.1,Unknown,Unknown,Unknown
+"MW382955.1 Klebsiella pneumoniae strain SKJ3 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0075_Unknown_Unknown,MW382955.1,Unknown,Unknown,Unknown
+"MW382956.1 Klebsiella pneumoniae strain SKJ7 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0076_Unknown_Unknown,MW382956.1,Unknown,Unknown,Unknown
+"MW382957.1 Klebsiella pneumoniae strain SKJ10 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0077_Unknown_Unknown,MW382957.1,Unknown,Unknown,Unknown
+"MW382958.1 Klebsiella pneumoniae strain SKJ11 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0078_Unknown_Unknown,MW382958.1,Unknown,Unknown,Unknown
+"MZ557403.1 Klebsiella pneumoniae strain AF14 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0079_Unknown_Unknown,MZ557403.1,Unknown,Unknown,Unknown
+"MW581777.1 Klebsiella pneumoniae strain KP29 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0080_Unknown_Unknown,MW581777.1,Unknown,Unknown,Unknown
+"MW581778.1 Klebsiella pneumoniae strain KP30 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0081_Unknown_Unknown,MW581778.1,Unknown,Unknown,Unknown
+"MW581779.1 Klebsiella pneumoniae strain KP31 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0082_Unknown_Unknown,MW581779.1,Unknown,Unknown,Unknown
+"MW581780.1 Klebsiella pneumoniae strain KP32 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0083_Unknown_Unknown,MW581780.1,Unknown,Unknown,Unknown
+"MW581781.1 Klebsiella pneumoniae strain KP33 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0084_Unknown_Unknown,MW581781.1,Unknown,Unknown,Unknown
+"MW581782.1 Klebsiella pneumoniae strain KP34 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0085_Unknown_Unknown,MW581782.1,Unknown,Unknown,Unknown
+"MW581783.1 Klebsiella pneumoniae strain KP35 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0086_Unknown_Unknown,MW581783.1,Unknown,Unknown,Unknown
+"MW581784.1 Klebsiella pneumoniae strain KP36 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0087_Unknown_Unknown,MW581784.1,Unknown,Unknown,Unknown
+"MW581785.1 Klebsiella pneumoniae strain KP37 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0088_Unknown_Unknown,MW581785.1,Unknown,Unknown,Unknown
+"MW581786.1 Klebsiella pneumoniae strain KP38 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0089_Unknown_Unknown,MW581786.1,Unknown,Unknown,Unknown
+"MW581787.1 Klebsiella pneumoniae strain KP39 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0090_Unknown_Unknown,MW581787.1,Unknown,Unknown,Unknown
+"MW581788.1 Klebsiella pneumoniae strain KP40 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0091_Unknown_Unknown,MW581788.1,Unknown,Unknown,Unknown
+"MW581789.1 Klebsiella pneumoniae strain KP41 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0092_Unknown_Unknown,MW581789.1,Unknown,Unknown,Unknown
+"MW581790.1 Klebsiella pneumoniae strain KP42 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0093_Unknown_Unknown,MW581790.1,Unknown,Unknown,Unknown
+"MW581791.1 Klebsiella pneumoniae strain KP43 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0094_Unknown_Unknown,MW581791.1,Unknown,Unknown,Unknown
+"MW581794.1 Klebsiella pneumoniae strain KP46 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0095_Unknown_Unknown,MW581794.1,Unknown,Unknown,Unknown
+"MW581793.1 Klebsiella pneumoniae strain KP45 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0096_Unknown_Unknown,MW581793.1,Unknown,Unknown,Unknown
+"MW581792.1 Klebsiella pneumoniae strain KP44 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0097_Unknown_Unknown,MW581792.1,Unknown,Unknown,Unknown
+"MZ913436.1 Klebsiella pneumoniae strain 140507 plasmid subclass B1 metallo-beta-lactamase NDM-41 (blaNDM) gene, blaNDM-41 allele, complete cds",KpNDM_0098_Unknown_Unknown,MZ913436.1,Unknown,Unknown,Unknown
+"NG_076842.1 Klebsiella pneumoniae 01B18CPO004 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-39, complete CDS",KpNDM_0099_Unknown_Unknown,NG_076842.1,Unknown,Unknown,Unknown
+"MZ748325.1 Klebsiella pneumoniae strain 01B18CPO004 subclass B1 metallo-beta-lactamase NDM-39 (blaNDM) gene, blaNDM-39 allele, complete cds",KpNDM_0100_Unknown_Unknown,MZ748325.1,Unknown,Unknown,Unknown
+"OL542504.1 Klebsiella pneumoniae strain KP-3 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0101_Unknown_Unknown,OL542504.1,Unknown,Unknown,Unknown
+"OL542503.1 Klebsiella pneumoniae strain KP-2 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0102_Unknown_Unknown,OL542503.1,Unknown,Unknown,Unknown
+"OL542502.1 Klebsiella pneumoniae strain KP-1 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0103_Unknown_Unknown,OL542502.1,Unknown,Unknown,Unknown
+"OL542506.1 Klebsiella pneumoniae strain KP-6 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0104_Unknown_Unknown,OL542506.1,Unknown,Unknown,Unknown
+"OL542505.1 Klebsiella pneumoniae strain KP-4 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0105_Unknown_Unknown,OL542505.1,Unknown,Unknown,Unknown
+"MZ419354.1 Klebsiella pneumoniae strain NKP52 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0106_Unknown_Unknown,MZ419354.1,Unknown,Unknown,Unknown
+"MZ419353.1 Klebsiella pneumoniae strain NKP49 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0107_Unknown_Unknown,MZ419353.1,Unknown,Unknown,Unknown
+"MZ419352.1 Klebsiella pneumoniae strain NKP46 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0108_Unknown_Unknown,MZ419352.1,Unknown,Unknown,Unknown
+"MZ419351.1 Klebsiella pneumoniae strain NKP42 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0109_Unknown_Unknown,MZ419351.1,Unknown,Unknown,Unknown
+"MZ419350.1 Klebsiella pneumoniae strain NKP32 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0110_Unknown_Unknown,MZ419350.1,Unknown,Unknown,Unknown
+"MZ419349.1 Klebsiella pneumoniae strain NKP5 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0111_Unknown_Unknown,MZ419349.1,Unknown,Unknown,Unknown
+"MW036197.1 Klebsiella pneumoniae strain K74-A3 plasmid subclass B1 metallo-beta-lactamase NDM-7 (blaNDM) gene, blaNDM-7 allele, complete cds",KpNDM_0112_Unknown_Unknown,MW036197.1,Unknown,Unknown,Unknown
+"MT312213.1 Klebsiella pneumoniae strain K17 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0113_Unknown_Unknown,MT312213.1,Unknown,Unknown,Unknown
+"NG_078034.1 Klebsiella pneumoniae 140507 plasmid unnamed blaNDM gene for subclass B1 metallo-beta-lactamase NDM-41, complete CDS",KpNDM_0114_Unknown_Unknown,NG_078034.1,Unknown,Unknown,Unknown
+"NG_246047.1 Klebsiella pneumoniae KPN 5708 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-97, complete CDS",KpNDM_0115_Unknown_Unknown,NG_246047.1,Unknown,Unknown,Unknown
+"PZ020858.1 Klebsiella pneumoniae subsp. pneumoniae strain KP2 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0116_Unknown_Unknown,PZ020858.1,Unknown,Unknown,Unknown
+"NG_245928.1 Klebsiella pneumoniae HS370 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-96, complete CDS",KpNDM_0117_Unknown_Unknown,NG_245928.1,Unknown,Unknown,Unknown
+"NG_245926.1 Klebsiella pneumoniae NRZ-104155b blaNDM gene for subclass B1 metallo-beta-lactamase NDM-94, complete CDS",KpNDM_0118_Unknown_Unknown,NG_245926.1,Unknown,Unknown,Unknown
+"PX759025.1 Klebsiella pneumoniae strain HS370 subclass B1 metallo-beta-lactamase NDM-96 (blaNDM) gene, blaNDM-96 allele, complete cds",KpNDM_0119_Unknown_Unknown,PX759025.1,Unknown,Unknown,Unknown
+"PX516303.1 Klebsiella pneumoniae strain NRZ-104155b subclass B1 metallo-beta-lactamase NDM-94 (blaNDM) gene, blaNDM-94 allele, complete cds",KpNDM_0120_Unknown_Unknown,PX516303.1,Unknown,Unknown,Unknown
+"NG_149664.1 Klebsiella pneumoniae 2022EP-00149 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-50, complete CDS",KpNDM_0121_Unknown_Unknown,NG_149664.1,Unknown,Unknown,Unknown
+"PX204626.1 Klebsiella pneumoniae strain KK6 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0122_Unknown_Unknown,PX204626.1,Unknown,Unknown,Unknown
+"PX204620.1 Klebsiella pneumoniae strain KK3 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0123_Unknown_Unknown,PX204620.1,Unknown,Unknown,Unknown
+"PX204621.1 Klebsiella pneumoniae strain KK4 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0124_Unknown_Unknown,PX204621.1,Unknown,Unknown,Unknown
+"PX204625.1 Klebsiella pneumoniae strain KK5 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0125_Unknown_Unknown,PX204625.1,Unknown,Unknown,Unknown
+"PV088247.1 Klebsiella pneumoniae strain NRZ-101528 subclass B1 metallo-beta-lactamase NDM-84 (blaNDM) gene, blaNDM-84 allele, complete cds",KpNDM_0126_Unknown_Unknown,PV088247.1,Unknown,Unknown,Unknown
+"NG_244540.1 Klebsiella pneumoniae FI-110223 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-63, complete CDS",KpNDM_0127_Unknown_Unknown,NG_244540.1,Unknown,Unknown,Unknown
+"NG_244544.1 Klebsiella pneumoniae NRZ-101528 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-84, complete CDS",KpNDM_0128_Unknown_Unknown,NG_244544.1,Unknown,Unknown,Unknown
+"PX204619.1 Klebsiella pneumoniae strain KK2 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0129_Unknown_Unknown,PX204619.1,Unknown,Unknown,Unknown
+"NG_243474.1 Klebsiella pneumoniae NRZ-97375 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-72, complete CDS",KpNDM_0130_Unknown_Unknown,NG_243474.1,Unknown,Unknown,Unknown
+"PV153721.1 Klebsiella pneumoniae subsp. pneumoniae strain SB-196 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0131_Unknown_Unknown,PV153721.1,Unknown,Unknown,Unknown
+"NG_243596.1 Klebsiella pneumoniae 23-039137-01 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-73, complete CDS",KpNDM_0132_Unknown_Unknown,NG_243596.1,Unknown,Unknown,Unknown
+"PV153722.1 Klebsiella pneumoniae subsp. pneumoniae strain SB-203 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0133_Unknown_Unknown,PV153722.1,Unknown,Unknown,Unknown
+"PQ117761.1 Klebsiella pneumoniae strain NRZ-97768 subclass B1 metallo-beta-lactamase NDM-71 (blaNDM) gene, blaNDM-71 allele, complete cds",KpNDM_0134_Unknown_Unknown,PQ117761.1,Unknown,Unknown,Unknown
+"PQ117763.1 Klebsiella pneumoniae strain NRZ-97375 subclass B1 metallo-beta-lactamase NDM-72 (blaNDM) gene, blaNDM-72 allele, complete cds",KpNDM_0135_Unknown_Unknown,PQ117763.1,Unknown,Unknown,Unknown
+"PQ394556.1 Klebsiella pneumoniae strain 23-039137-01 subclass B1 metallo-beta-lactamase NDM-73 (blaNDM) gene, blaNDM-73 allele, complete cds",KpNDM_0136_Unknown_Unknown,PQ394556.1,Unknown,Unknown,Unknown
+"NG_243473.1 Klebsiella pneumoniae NRZ-97768 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-71, complete CDS",KpNDM_0137_Unknown_Unknown,NG_243473.1,Unknown,Unknown,Unknown
+"OP346110.1 Klebsiella pneumoniae strain CRE92a subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0138_Unknown_Unknown,OP346110.1,Unknown,Unknown,Unknown
+"OP346111.1 Klebsiella pneumoniae strain CRE93a subclass B1 metallo-beta-lactamase NDM-7 (blaNDM) gene, blaNDM-7 allele, complete cds",KpNDM_0139_Unknown_Unknown,OP346111.1,Unknown,Unknown,Unknown
+"NG_231554.1 Klebsiella pneumoniae blaNDM gene for subclass B1 metallo-beta-lactamase NDM-61, complete CDS",KpNDM_0140_Unknown_Unknown,NG_231554.1,Unknown,Unknown,Unknown
+"NG_067145.1 Klebsiella pneumoniae blaNDM gene for subclass B1 metallo-beta-lactamase NDM-29, complete CDS",KpNDM_0141_Unknown_Unknown,NG_067145.1,Unknown,Unknown,Unknown
+"OP346109.1 Klebsiella pneumoniae strain CRE91a subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0142_Unknown_Unknown,OP346109.1,Unknown,Unknown,Unknown
+"OP346107.1 Klebsiella pneumoniae strain CRE85a subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0143_Unknown_Unknown,OP346107.1,Unknown,Unknown,Unknown
+"OP346105.1 Klebsiella pneumoniae strain CRE107 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0144_Unknown_Unknown,OP346105.1,Unknown,Unknown,Unknown
+"OP346103.1 Klebsiella pneumoniae strain CRE96 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0145_Unknown_Unknown,OP346103.1,Unknown,Unknown,Unknown
+"OP346102.1 Klebsiella pneumoniae strain CRE94 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0146_Unknown_Unknown,OP346102.1,Unknown,Unknown,Unknown
+"OP346092.1 Klebsiella pneumoniae strain CRE18 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0147_Unknown_Unknown,OP346092.1,Unknown,Unknown,Unknown
+"OP346094.1 Klebsiella pneumoniae strain CRE42 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0148_Unknown_Unknown,OP346094.1,Unknown,Unknown,Unknown
+"OP346095.1 Klebsiella pneumoniae strain CRE50 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0149_Unknown_Unknown,OP346095.1,Unknown,Unknown,Unknown
+"OP346099.1 Klebsiella pneumoniae strain CRE69 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0150_Unknown_Unknown,OP346099.1,Unknown,Unknown,Unknown
+"OP346087.1 Klebsiella pneumoniae strain CRE48 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0151_Unknown_Unknown,OP346087.1,Unknown,Unknown,Unknown
+"OP346089.1 Klebsiella pneumoniae strain CRE6 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0152_Unknown_Unknown,OP346089.1,Unknown,Unknown,Unknown
+"OP346090.1 Klebsiella pneumoniae strain CRE11 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0153_Unknown_Unknown,OP346090.1,Unknown,Unknown,Unknown
+"OP346091.1 Klebsiella pneumoniae strain CRE13 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0154_Unknown_Unknown,OP346091.1,Unknown,Unknown,Unknown
+"OP346076.1 Klebsiella pneumoniae strain CRE106 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0155_Unknown_Unknown,OP346076.1,Unknown,Unknown,Unknown
+"OP346077.1 Klebsiella pneumoniae strain CRE81a subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0156_Unknown_Unknown,OP346077.1,Unknown,Unknown,Unknown
+"OP346079.1 Klebsiella pneumoniae strain CRE90a subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0157_Unknown_Unknown,OP346079.1,Unknown,Unknown,Unknown
+"OP346082.1 Klebsiella pneumoniae strain CRE12 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0158_Unknown_Unknown,OP346082.1,Unknown,Unknown,Unknown
+"OP346074.1 Klebsiella pneumoniae strain CRE78 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0159_Unknown_Unknown,OP346074.1,Unknown,Unknown,Unknown
+"OP346073.1 Klebsiella pneumoniae strain CRE75 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0160_Unknown_Unknown,OP346073.1,Unknown,Unknown,Unknown
+"OP346072.1 Klebsiella pneumoniae strain CRE73 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0161_Unknown_Unknown,OP346072.1,Unknown,Unknown,Unknown
+"OP346071.1 Klebsiella pneumoniae strain CRE71 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0162_Unknown_Unknown,OP346071.1,Unknown,Unknown,Unknown
+"OQ428225.1 Klebsiella pneumoniae strain Co-CRKP7 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0163_Unknown_Unknown,OQ428225.1,Unknown,Unknown,Unknown
+"OQ428226.1 Klebsiella pneumoniae strain Co-CRKP8 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0164_Unknown_Unknown,OQ428226.1,Unknown,Unknown,Unknown
+"OQ428227.1 Klebsiella pneumoniae strain Co-CRKP10 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0165_Unknown_Unknown,OQ428227.1,Unknown,Unknown,Unknown
+"OQ428228.1 Klebsiella pneumoniae strain Co-CRKP15 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0166_Unknown_Unknown,OQ428228.1,Unknown,Unknown,Unknown
+"NG_049341.1 Klebsiella pneumoniae subsp. pneumoniae PPH1303 pNDM-pph1303 blaNDM gene for taniborbactam-resistant subclass B1 metallo-beta-lactamase NDM-9, complete CDS",KpNDM_0167_Unknown_Unknown,NG_049341.1,Unknown,Unknown,Unknown
+"NG_157020.1 Klebsiella pneumoniae C8500 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-54, complete CDS",KpNDM_0168_Unknown_Unknown,NG_157020.1,Unknown,Unknown,Unknown
+"NG_157018.1 Klebsiella pneumoniae NRZ-83262 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-52, complete CDS",KpNDM_0169_Unknown_Unknown,NG_157018.1,Unknown,Unknown,Unknown
+"OQ564973.1 Klebsiella pneumoniae strain NRZ-83262 subclass B1 metallo-beta-lactamase NDM-52 (blaNDM) gene, blaNDM-52 allele, complete cds",KpNDM_0170_Unknown_Unknown,OQ564973.1,Unknown,Unknown,Unknown
+"OQ595423.1 Klebsiella pneumoniae strain C8500 subclass B1 metallo-beta-lactamase NDM-54 (blaNDM) gene, blaNDM-54 allele, complete cds",KpNDM_0171_Unknown_Unknown,OQ595423.1,Unknown,Unknown,Unknown
+"ON572245.1 Klebsiella pneumoniae strain SS1 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0172_Unknown_Unknown,ON572245.1,Unknown,Unknown,Unknown
+"OL744249.1 Klebsiella pneumoniae strain CMOS-8 plasmid subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0173_Unknown_Unknown,OL744249.1,Unknown,Unknown,Unknown
+"OL699947.1 Klebsiella pneumoniae subsp. pneumoniae strain CMOS-8 plasmid subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0174_Unknown_Unknown,OL699947.1,Unknown,Unknown,Unknown
+"OP696901.1 Klebsiella pneumoniae strain CRE-596-0005 subclass B1 metallo-beta-lactamase NDM-41 (blaNDM) gene, blaNDM-41 allele, complete cds",KpNDM_0175_Unknown_Unknown,OP696901.1,Unknown,Unknown,Unknown
+"NG_088409.1 Klebsiella pneumoniae SNO16 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-44, complete CDS",KpNDM_0176_Unknown_Unknown,NG_088409.1,Unknown,Unknown,Unknown
+"OP288004.1 Klebsiella pneumoniae strain SNO33 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0177_Unknown_Unknown,OP288004.1,Unknown,Unknown,Unknown
+"OP288003.1 Klebsiella pneumoniae strain SNO18 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0178_Unknown_Unknown,OP288003.1,Unknown,Unknown,Unknown
+"OP288002.1 Klebsiella pneumoniae strain SNO17 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0179_Unknown_Unknown,OP288002.1,Unknown,Unknown,Unknown
+"OP288001.1 Klebsiella pneumoniae strain SNO16 subclass B1 metallo-beta-lactamase NDM-44 (blaNDM) gene, blaNDM-44 allele, complete cds",KpNDM_0180_Unknown_Unknown,OP288001.1,Unknown,Unknown,Unknown
+"OP287999.1 Klebsiella pneumoniae strain SNO14 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0181_Unknown_Unknown,OP287999.1,Unknown,Unknown,Unknown
+"OP287997.1 Klebsiella pneumoniae strain SNO12 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0182_Unknown_Unknown,OP287997.1,Unknown,Unknown,Unknown
+"OL544138.1 Klebsiella pneumoniae strain KPNIC3 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0183_Unknown_Unknown,OL544138.1,Unknown,Unknown,Unknown
+"OL544137.1 Klebsiella pneumoniae strain KPNIC2 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0184_Unknown_Unknown,OL544137.1,Unknown,Unknown,Unknown
+"OL544136.1 Klebsiella pneumoniae strain KPNIC1 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0185_Unknown_Unknown,OL544136.1,Unknown,Unknown,Unknown
+"OL544135.1 Klebsiella pneumoniae strain KPNIC5 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0186_Unknown_Unknown,OL544135.1,Unknown,Unknown,Unknown
+"OL544134.1 Klebsiella pneumoniae strain KPNIC4 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0187_Unknown_Unknown,OL544134.1,Unknown,Unknown,Unknown
+"NG_081701.1 Klebsiella pneumoniae MMGN224 blaNDM gene for subclass B1 metallo-beta-lactamase NDM-43, complete CDS",KpNDM_0188_Unknown_Unknown,NG_081701.1,Unknown,Unknown,Unknown
+"ON954084.1 Klebsiella pneumoniae strain MMGN224 subclass B1 metallo-beta-lactamase NDM-43 (blaNDM) gene, blaNDM-43 allele, complete cds",KpNDM_0189_Unknown_Unknown,ON954084.1,Unknown,Unknown,Unknown
+"ON553466.1 Klebsiella pneumoniae subsp. pneumoniae strain MMGX21 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0190_Unknown_Unknown,ON553466.1,Unknown,Unknown,Unknown
+"ON553465.1 Klebsiella pneumoniae subsp. pneumoniae strain MMGN70 subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0191_Unknown_Unknown,ON553465.1,Unknown,Unknown,Unknown
+"ON511106.1 Klebsiella pneumoniae subsp. pneumoniae strain MMGN224 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0192_Unknown_Unknown,ON511106.1,Unknown,Unknown,Unknown
+"ON511105.1 Klebsiella pneumoniae subsp. pneumoniae strain MMGA96 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0193_Unknown_Unknown,ON511105.1,Unknown,Unknown,Unknown
+"ON511104.1 Klebsiella pneumoniae subsp. pneumoniae strain MMGX130 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0194_Unknown_Unknown,ON511104.1,Unknown,Unknown,Unknown
+"ON511103.1 Klebsiella pneumoniae subsp. pneumoniae strain MMGK9 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0195_Unknown_Unknown,ON511103.1,Unknown,Unknown,Unknown
+"ON511102.1 Klebsiella pneumoniae subsp. pneumoniae strain MMGK6 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0196_Unknown_Unknown,ON511102.1,Unknown,Unknown,Unknown
+"ON511101.1 Klebsiella pneumoniae subsp. pneumoniae strain MMGA109 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0197_Unknown_Unknown,ON511101.1,Unknown,Unknown,Unknown
+"OM937932.1 Klebsiella pneumoniae subsp. pneumoniae strain CMVD14 plasmid subclass B1 metallo-beta-lactamase NDM-5 (blaNDM) gene, blaNDM-5 allele, complete cds",KpNDM_0198_Unknown_Unknown,OM937932.1,Unknown,Unknown,Unknown
+"OL542508.1 Klebsiella pneumoniae strain KP-8 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0199_Unknown_Unknown,OL542508.1,Unknown,Unknown,Unknown
+"OL542507.1 Klebsiella pneumoniae strain KP-7 subclass B1 metallo-beta-lactamase NDM-1 (blaNDM) gene, blaNDM-1 allele, complete cds",KpNDM_0200_Unknown_Unknown,OL542507.1,Unknown,Unknown,Unknown
+"NZ_PXKW01000128.1 Klebsiella pneumoniae strain CRE28 NODE_128_length_521_cov_3.13519, whole genome shotgun sequence",KpNDM_0201_Unknown_Unknown,NZ_PXKW01000128.1,Unknown,Unknown,Unknown
+"NZ_PXKW01000129.1 Klebsiella pneumoniae strain CRE28 NODE_129_length_510_cov_1.93187, whole genome shotgun sequence",KpNDM_0202_Unknown_Unknown,NZ_PXKW01000129.1,Unknown,Unknown,Unknown
+"JF798500.1 Klebsiella pneumoniae strain Res2010-21 metallo-beta-lactamase 1 (blaNDM-1) gene, complete cds",KpNDM_0203_Unknown_Unknown,JF798500.1,Unknown,Unknown,Unknown
+"JF798499.1 Klebsiella pneumoniae strain Res2010-17 metallo-beta-lactamase 1 (blaNDM-1) gene, complete cds",KpNDM_0204_Unknown_Unknown,JF798499.1,Unknown,Unknown,Unknown
+"KC534860.1 Klebsiella pneumoniae strain JIE1709 clone 1709-K35 OmpK35 (ompK35) gene, complete cds",KpNDM_0205_Unknown_Unknown,KC534860.1,Unknown,Unknown,Unknown
+"KC539432.1 Klebsiella pneumoniae strain NF23142 metallo-beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0206_Unknown_Unknown,KC539432.1,Unknown,Unknown,Unknown
+"KC539430.1 Klebsiella pneumoniae strain NF27378 metallo-beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0207_Unknown_Unknown,KC539430.1,Unknown,Unknown,Unknown
+"KC539429.1 Klebsiella pneumoniae strain NF241942 metallo-beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0208_Unknown_Unknown,KC539429.1,Unknown,Unknown,Unknown
+"KC534864.1 Klebsiella pneumoniae strain JIE2121 clone 2121-K36 OmpK36 (ompK36) gene, complete cds",KpNDM_0209_Unknown_Unknown,KC534864.1,Unknown,Unknown,Unknown
+"KC534863.1 Klebsiella pneumoniae strain JIE2121 clone 2121-K35 truncated OmpK35 (ompK35) gene, complete cds",KpNDM_0210_Unknown_Unknown,KC534863.1,Unknown,Unknown,Unknown
+"KC534862.1 Klebsiella pneumoniae strain JIE1709 clone 1709-K37 OmpK37 (ompK37) gene, complete cds",KpNDM_0211_Unknown_Unknown,KC534862.1,Unknown,Unknown,Unknown
+"KC534861.1 Klebsiella pneumoniae strain JIE1709 clone 1709-K36 OmpK36 (ompK36) gene, complete cds",KpNDM_0212_Unknown_Unknown,KC534861.1,Unknown,Unknown,Unknown
+"KC534865.1 Klebsiella pneumoniae strain JIE2121 clone 2121-K37 OmpK37 (ompK37) gene, complete cds",KpNDM_0213_Unknown_Unknown,KC534865.1,Unknown,Unknown,Unknown
+"KC534866.1 Klebsiella pneumoniae strain JIE2681 clone 2681-K35 truncated OmpK35 (ompK35) gene, complete cds",KpNDM_0214_Unknown_Unknown,KC534866.1,Unknown,Unknown,Unknown
+"KC534867.1 Klebsiella pneumoniae strain JIE2681 clone 2681-K36 OmpK36 (ompK36) gene, complete cds",KpNDM_0215_Unknown_Unknown,KC534867.1,Unknown,Unknown,Unknown
+"KC534868.1 Klebsiella pneumoniae strain JIE2681 clone 2681-K37 OmpK37 (ompK37) gene, complete cds",KpNDM_0216_Unknown_Unknown,KC534868.1,Unknown,Unknown,Unknown
+"KC534870.1 Klebsiella pneumoniae strain JIE2713 clone 2713-K36 OmpK36 (ompK36) gene, complete cds",KpNDM_0217_Unknown_Unknown,KC534870.1,Unknown,Unknown,Unknown
+"KC534871.1 Klebsiella pneumoniae strain JIE2713 clone 2713-K37 OmpK37 (ompK37) gene, complete cds",KpNDM_0218_Unknown_Unknown,KC534871.1,Unknown,Unknown,Unknown
+"KU543690.1 Klebsiella pneumoniae strain K.P-UC-16 beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0219_Unknown_Unknown,KU543690.1,Unknown,Unknown,Unknown
+"KU248755.1 Klebsiella pneumoniae strain K.P-UC-12 New Delhi metallo-beta-lactamase (blaNDM-1) gene, complete cds",KpNDM_0220_Unknown_Unknown,KU248755.1,Unknown,Unknown,Unknown
+"KU543691.1 Klebsiella pneumoniae strain K.P-UC-17 beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0221_Unknown_Unknown,KU543691.1,Unknown,Unknown,Unknown
+"KU543692.1 Klebsiella pneumoniae strain K.P-UC-18 beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0222_Unknown_Unknown,KU543692.1,Unknown,Unknown,Unknown
+"KU570059.1 Klebsiella pneumoniae strain K.P-UC-20 beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0223_Unknown_Unknown,KU570059.1,Unknown,Unknown,Unknown
+"KU570058.1 Klebsiella pneumoniae strain K.P-UC-19 beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0224_Unknown_Unknown,KU570058.1,Unknown,Unknown,Unknown
+"KU570060.1 Klebsiella pneumoniae strain K.P-UC-21 beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0225_Unknown_Unknown,KU570060.1,Unknown,Unknown,Unknown
+"KU577458.1 Klebsiella pneumoniae strain K.P-UC-22 beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0226_Unknown_Unknown,KU577458.1,Unknown,Unknown,Unknown
+"KU577461.1 Klebsiella pneumoniae strain K.P-UC-25 beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0227_Unknown_Unknown,KU577461.1,Unknown,Unknown,Unknown
+"KU577460.1 Klebsiella pneumoniae strain K.P-UC-24 beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0228_Unknown_Unknown,KU577460.1,Unknown,Unknown,Unknown
+"KU577459.1 Klebsiella pneumoniae strain K.P-UC-23 beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0229_Unknown_Unknown,KU577459.1,Unknown,Unknown,Unknown
+"NG_047770.1 Klebsiella pneumoniae pKpANDM-1 ere(A) gene for EreA family erythromycin esterase, complete CDS",KpNDM_0230_Unknown_Unknown,NG_047770.1,Unknown,Unknown,Unknown
+"MH168507.2 Klebsiella pneumoniae strain DMC-43a metallo-beta-lactamase NDM-5 (blaNDM-5) gene, complete cds",KpNDM_0231_Unknown_Unknown,MH168507.2,Unknown,Unknown,Unknown
+"MH168508.2 Klebsiella pneumoniae strain DMC-26 metallo-beta-lactamase NDM-5 (blaNDM-5) gene, complete cds",KpNDM_0232_Unknown_Unknown,MH168508.2,Unknown,Unknown,Unknown
+"MH168509.2 Klebsiella pneumoniae strain DMC-19b metallo-beta-lactamase NDM-5 (blaNDM-5) gene, complete cds",KpNDM_0233_Unknown_Unknown,MH168509.2,Unknown,Unknown,Unknown
+"MH168510.2 Klebsiella pneumoniae strain DMC-18 metallo-beta-lactamase NDM-5 (blaNDM-5) gene, complete cds",KpNDM_0234_Unknown_Unknown,MH168510.2,Unknown,Unknown,Unknown
+"NG_049013.1 Klebsiella pneumoniae pJIE137 blaCTX-M gene for extended-spectrum class A beta-lactamase CTX-M-62, complete CDS",KpNDM_0235_Unknown_Unknown,NG_049013.1,Unknown,Unknown,Unknown
+"MH168514.2 Klebsiella pneumoniae strain DMC-17a metallo-beta-lactamase NDM-1 (blaNDM-1) gene, complete cds",KpNDM_0236_Unknown_Unknown,MH168514.2,Unknown,Unknown,Unknown
+"KC534869.1 Klebsiella pneumoniae strain JIE2713 clone 2713-K35 insertion sequence IS1, complete sequence; and OmpK36 (ompK36) gene, complete cds",KpNDM_0237_Unknown_Unknown,KC534869.1,Unknown,Unknown,Unknown
+"OR454196.1 Klebsiella pneumoniae subsp. pneumoniae strain K13-A4 carbapenem-hydrolyzing class A beta-lactamase KPC-2 (blaKPC) gene, blaKPC-2 allele, complete cds",KpNDM_0238_Unknown_Unknown,OR454196.1,Unknown,Unknown,Unknown
+"OR475319.1 Klebsiella pneumoniae subsp. pneumoniae strain K25-A4 carbapenem-hydrolyzing class A beta-lactamase KPC-2 (blaKPC) gene, blaKPC-2 allele, complete cds",KpNDM_0239_Unknown_Unknown,OR475319.1,Unknown,Unknown,Unknown
+"OR475318.1 Klebsiella pneumoniae subsp. pneumoniae strain K24-A4 carbapenem-hydrolyzing class A beta-lactamase KPC-2 (blaKPC) gene, blaKPC-2 allele, complete cds",KpNDM_0240_Unknown_Unknown,OR475318.1,Unknown,Unknown,Unknown
+"OR454197.1 Klebsiella pneumoniae subsp. pneumoniae strain K19-A4 carbapenem-hydrolyzing class A beta-lactamase KPC-2 (blaKPC) gene, blaKPC-2 allele, complete cds",KpNDM_0241_Unknown_Unknown,OR454197.1,Unknown,Unknown,Unknown
+"OR480998.1 Klebsiella pneumoniae subsp. pneumoniae strain K31-A4 carbapenem-hydrolyzing class A beta-lactamase KPC-2 (blaKPC) gene, blaKPC-2 allele, complete cds",KpNDM_0242_Unknown_Unknown,OR480998.1,Unknown,Unknown,Unknown
+"OR480999.1 Klebsiella pneumoniae subsp. pneumoniae strain K32-A4 carbapenem-hydrolyzing class A beta-lactamase KPC-2 (blaKPC) gene, blaKPC-2 allele, complete cds",KpNDM_0243_Unknown_Unknown,OR480999.1,Unknown,Unknown,Unknown
+"OR494057.1 Klebsiella pneumoniae subsp. pneumoniae strain K34-A4 carbapenem-hydrolyzing class A beta-lactamase KPC-2 (blaKPC) gene, blaKPC-2 allele, complete cds",KpNDM_0244_Unknown_Unknown,OR494057.1,Unknown,Unknown,Unknown
+"OR494058.1 Klebsiella pneumoniae subsp. pneumoniae strain K35-A4 carbapenem-hydrolyzing class A beta-lactamase KPC-2 (blaKPC) gene, blaKPC-2 allele, complete cds",KpNDM_0245_Unknown_Unknown,OR494058.1,Unknown,Unknown,Unknown
+"NZ_CP084333.1 Klebsiella pneumoniae strain HJM-ERG332 plasmid unnamed1, complete sequence",KpNDM_0246_Unknown_Unknown,NZ_CP084333.1,Unknown,Unknown,Unknown
+"KF220658.1 Klebsiella pneumoniae strain MGR-K8 plasmid pNDM_MGRK8, complete sequence",KpNDM_0247_Unknown_Unknown,KF220658.1,Unknown,Unknown,Unknown
+"NZ_KF220658.1 Klebsiella pneumoniae strain MGR-K8 plasmid pNDM_MGRK8, complete sequence",KpNDM_0248_Unknown_Unknown,NZ_KF220658.1,Unknown,Unknown,Unknown
+"CP084333.1 Klebsiella pneumoniae strain HJM-ERG332 plasmid unnamed1, complete sequence",KpNDM_0249_Unknown_Unknown,CP084333.1,Unknown,Unknown,Unknown
+"NZ_JAVVMU010000190.1 Klebsiella pneumoniae strain CB-2023-17 NODE_190_length_1088_cov_17.344433, whole genome shotgun sequence",KpNDM_0250_Unknown_Unknown,NZ_JAVVMU010000190.1,Unknown,Unknown,Unknown

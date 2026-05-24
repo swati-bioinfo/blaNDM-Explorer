@@ -1,8 +1,15 @@
-# Data files (large, can be regenerated)
-data/
-results/
+# Large/generated files (excluded first)
 *.fasta
 *.fasta.*
+data/*
+results/*
+
+# Essential data for Streamlit app (re-included)
+!data/sequence_metadata.csv
+!data/*.contree
+!results/variant_frequencies.csv
+!results/mutation_frequencies_per_position.csv
+# all_mutations.csv is 1.1MB — skip unless you need per-sequence mutation explorer
 
 # Browser/MCP session logs
 .playwright-mcp/
@@ -45,6 +52,7 @@ M11CC_Out/
 _opencode*
 opencode*
 C:*Users*
+C:*UsershpAppDataLocalTempopencodestep3_current.txt
 &#10;Users*
 
 # One-off JSON artifacts

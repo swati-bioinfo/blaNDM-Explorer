@@ -9,9 +9,11 @@ from pathlib import Path
 
 st.set_page_config(layout="wide", page_title="blaNDM Phylogeny Explorer")
 
-DATA = Path("data")
-RESULTS = Path("results")
-FIGURES = Path("figures")
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+DATA = ROOT / "data"
+RESULTS = ROOT / "results"
+FIGURES = ROOT / "figures"
 
 VARIANT_COLORS = {
     "NDM-1": "#1f77b4", "NDM-4": "#ff7f0e", "NDM-5": "#2ca02c",
