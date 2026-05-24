@@ -139,7 +139,6 @@ elif page == "Interactive Tree":
         bg = "#020817"
         line_color = "#475569"
         label_color = "#CBD5E1"
-        leaf_color = "#38BDF8"
 
         label_pos = "left" if layout == "radial" else "right"
 
@@ -153,9 +152,11 @@ elif page == "Interactive Tree":
                 "formatter": """function(params) {
                     var name = params.name || 'internal';
                     if (name === 'internal') return '';
-                    var val = params.value ? '<br/>Branch length: ' + params.value : '';
-                    var variant = params.data.variant ? '<br/>Variant: ' + params.data.variant : '';
-                    return '<b>' + name + '</b>' + val + variant;
+                    var val = params.value ? ' (branch: ' + params.value + ')' : '';
+                    var data = params.data || {};
+                    var variant = data.variant ? '<br/>Variant: <b>' + data.variant + '</b>' : '';
+                    var colorStyle = data.itemStyle ? 'color:' + data.itemStyle.color : '';
+                    return '<span style=\"display:inline-block;width:10px;height:10px;border-radius:50%;' + colorStyle + ';margin-right:6px\"></span><b>' + name + '</b>' + val + variant;
                 }"""
             },
             "series": [{
@@ -166,8 +167,8 @@ elif page == "Interactive Tree":
                 "bottom": "3%",
                 "right": "18%",
                 "layout": layout,
-                "symbol": "emptyCircle",
-                "symbolSize": 5,
+                "symbol": "circle",
+                "symbolSize": 7,
                 "roam": True,
                 "expandAndCollapse": True,
                 "initialTreeDepth": init_depth,
@@ -191,7 +192,7 @@ elif page == "Interactive Tree":
                     "curveness": 0.5
                 },
                 "leaves": {
-                    "label": {"color": leaf_color, "fontSize": font_size}
+                    "label": {"color": label_color, "fontSize": font_size}
                 }
             }]
         }
