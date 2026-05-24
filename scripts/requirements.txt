@@ -1,4 +1,4 @@
-streamlit==1.57.0
-pandas==3.0.3
-toytree==3.0.11
-toyplot==2.1.0
+streamlit>=1.53
+pandas>=2.0
+biopython>=1.80
+streamlit-echarts>=0.6.0

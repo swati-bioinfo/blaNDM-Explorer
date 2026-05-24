@@ -1,11 +1,9 @@
 import streamlit as st
 import pandas as pd
-import os
-import tempfile
-import toytree
-import toyplot
-import toyplot.html
+import json
 from pathlib import Path
+from Bio import Phylo
+from streamlit_echarts import st_echarts
 
 st.set_page_config(layout="wide", page_title="blaNDM Phylogeny Explorer")
 
@@ -14,6 +12,8 @@ ROOT = HERE.parent
 DATA = ROOT / "data"
 RESULTS = ROOT / "results"
 FIGURES = ROOT / "figures"
+
+CONTREE_PATH = DATA / "blaNDM_Kpneumoniae_phylogeny.fasta.contree"
 
 VARIANT_COLORS = {
     "NDM-1": "#1f77b4", "NDM-4": "#ff7f0e", "NDM-5": "#2ca02c",
@@ -28,19 +28,6 @@ VARIANT_COLORS = {
     "NDM-97": "#a93226", "NDM-unknown": "#cccccc",
 }
 
-def get_variant(tip_label):
-    return tip_label.split("_")[0]
-
-def tree_html(tree):
-    tmp = tempfile.NamedTemporaryFile(suffix=".html", delete=False)
-    tmp.close()
-    try:
-        toyplot.html.render(tree, tmp.name)
-        with open(tmp.name, "r", encoding="utf-8") as f:
-            return f.read()
-    finally:
-        os.unlink(tmp.name)
-
 @st.cache_data
 def load_data():
     meta = pd.read_csv(DATA / "sequence_metadata.csv")
@@ -52,24 +39,24 @@ def load_data():
         am = pd.DataFrame()
     return meta, vf, mf, am
 
-@st.cache_resource
-def load_tree():
-    return toytree.tree(DATA / "blaNDM_Kpneumoniae_phylogeny.fasta.contree")
+def clade_to_dict(clade):
+    name = clade.name or ""
+    variant = name.split("_")[0] if name else ""
+    color = VARIANT_COLORS.get(variant, "#cccccc")
+    node = {"name": name or "internal"}
+    if clade.branch_length is not None:
+        node["value"] = round(clade.branch_length, 6)
+    if clade.clades:
+        node["children"] = [clade_to_dict(c) for c in clade.clades]
+    if not clade.clades:
+        node["itemStyle"] = {"color": color}
+        node["variant"] = variant
+    return node
 
 @st.cache_resource
-def render_tree_html(_tree):
-    labels = _tree.get_tip_labels()
-    variants = [get_variant(l) for l in labels]
-    colors = [VARIANT_COLORS.get(v, "#cccccc") for v in variants]
-
-    canvas, axes, mark = _tree.draw(
-        width=1000,
-        height=1800,
-        tip_labels_style={"font-size": "10px"},
-        tip_labels_colors=colors,
-        node_labels=False,
-    )
-    return tree_html(canvas)
+def load_tree_data():
+    tree = Phylo.read(CONTREE_PATH, "newick")
+    return clade_to_dict(tree.clade)
 
 meta, vf, mf, am = load_data()
 
@@ -97,21 +84,21 @@ if page == "Overview":
 
     k5, k6, k7, k8 = st.columns(4)
     k5.metric("Variant Patterns", n_variants)
-    k6.metric("High-Freq Positions (≥5%)", high_freq_pos)
+    k6.metric("High-Freq Positions (>=5%)", high_freq_pos)
     k7.metric("Most Mutated", f"Pos {int(top_pos['position'])}")
     k8.metric("Top Freq", f"{top_pos['mutation_frequency']:.1%}")
 
     st.subheader("IQ-TREE Summary")
     col1, col2 = st.columns(2)
     with col1:
-        st.markdown(f"""
+        st.markdown("""
         - **Model**: HKY+G4 (selected by BIC)
         - **Log-likelihood**: -15,943.42
         - **Bootstrap correlation**: 0.990
         - **Total tree length**: 5.31 substitutions/site
         """)
     with col2:
-        st.markdown(f"""
+        st.markdown("""
         - **Constant sites**: 529 (23.3%)
         - **Singleton sites**: 399
         - **Near-zero branches (warning)**: 37
@@ -119,13 +106,13 @@ if page == "Overview":
         """)
 
     st.subheader("Key Findings")
-    st.markdown(f"""
-    1. **Insertion hotspot at positions 789-795**: Present in ~90% of sequences — a key distinguishing feature of most NDM variants vs NDM-1
-    2. **Position 1294 (A→C)**: Second most variable at 41.8%, strongly associated with Clade B
-    3. **Two major clades**: Clade A (~35.5%, 789-795 insertion) and Clade B (~26.0%, insertion + G941T + A1294C)
-    4. **NDM-63 as outgroup**: ~0.68 substitutions/site from the rest — the most divergent sequence in the dataset
-    5. **161 identical sequences**: Only 90 unique sequence types in the tree
-    6. **Quality concern**: 243 sequences have >50% gaps — likely alignment artifacts from divergent sequences
+    st.markdown("""
+    1. **Insertion hotspot at positions 789-795**: Present in ~90% of sequences
+    2. **Position 1294 (A->C)**: Second most variable at 41.8%, associated with Clade B
+    3. **Two major clades**: Clade A (~35.5%) and Clade B (~26.0%)
+    4. **NDM-63 as outgroup**: ~0.68 substitutions/site from the rest
+    5. **161 identical sequences**: Only 90 unique sequence types
+    6. **Quality concern**: 243 sequences have >50% gaps
     """)
 
     st.subheader("Visualizations")
@@ -137,18 +124,97 @@ if page == "Overview":
 
 elif page == "Interactive Tree":
     st.title("Interactive Phylogenetic Tree")
-    st.markdown("**Consensus tree** from IQ-TREE (90 unique sequence types). Tip colors = NDM variant. Scroll to zoom, drag to pan, hover for labels.")
+    st.markdown("**Consensus tree** from IQ-TREE (90 unique sequence types). Tip colors = NDM variant. Zoom/pan with mouse, click clade labels to collapse/expand.")
 
-    with st.spinner("Rendering tree..."):
-        tree = load_tree()
-        html = render_tree_html(tree)
+    tree_data = load_tree_data()
 
-    st.components.v1.html(html, height=900, scrolling=True)
+    with st.sidebar:
+        st.markdown("### Tree Controls")
+        layout = st.radio("Layout", ["radial", "orthogonal"], index=0, horizontal=True)
+        init_depth = st.slider("Initial expand depth", 1, 10, 3)
+        font_size = st.slider("Label font size", 6, 16, 9)
+        search_query = st.text_input("Search taxa", placeholder="e.g. NDM-63, OR667647")
 
-    with st.expander("Tip Color Legend"):
-        cols = st.columns(5)
-        for i, (variant, color) in enumerate(sorted(VARIANT_COLORS.items())):
-            cols[i % 5].markdown(f'<span style="display:inline-block;width:12px;height:12px;background:{color};border-radius:2px;margin-right:4px"></span> {variant}', unsafe_allow_html=True)
+    if CONTREE_PATH.exists():
+        bg = "#020817"
+        line_color = "#475569"
+        label_color = "#CBD5E1"
+        leaf_color = "#38BDF8"
+
+        label_pos = "left" if layout == "radial" else "right"
+
+        search_term = search_query.strip().lower()
+
+        option = {
+            "backgroundColor": bg,
+            "tooltip": {
+                "trigger": "item",
+                "triggerOn": "mousemove",
+                "formatter": """function(params) {
+                    var name = params.name || 'internal';
+                    if (name === 'internal') return '';
+                    var val = params.value ? '<br/>Branch length: ' + params.value : '';
+                    var variant = params.data.variant ? '<br/>Variant: ' + params.data.variant : '';
+                    return '<b>' + name + '</b>' + val + variant;
+                }"""
+            },
+            "series": [{
+                "type": "tree",
+                "data": [tree_data],
+                "top": "3%",
+                "left": "3%",
+                "bottom": "3%",
+                "right": "18%",
+                "layout": layout,
+                "symbol": "emptyCircle",
+                "symbolSize": 5,
+                "roam": True,
+                "expandAndCollapse": True,
+                "initialTreeDepth": init_depth,
+                "animationDuration": 300,
+                "animationDurationUpdate": 500,
+                "label": {
+                    "color": label_color,
+                    "fontSize": font_size,
+                    "position": label_pos,
+                    "rotate": 0,
+                    "formatter": """function(params) {
+                        var name = params.name || '';
+                        if (name === 'internal') return '';
+                        if (name.length > 35) return name.slice(0, 32) + '...';
+                        return name;
+                    }"""
+                },
+                "lineStyle": {
+                    "color": line_color,
+                    "width": 1.2,
+                    "curveness": 0.5
+                },
+                "leaves": {
+                    "label": {"color": leaf_color, "fontSize": font_size}
+                }
+            }]
+        }
+
+        if search_term:
+            def highlight_matches(node):
+                name = node.get("name", "")
+                matched = search_term in name.lower() and name != "internal"
+                if matched:
+                    node["label"] = {"color": "#FACC15", "fontSize": font_size + 2, "fontWeight": "bold"}
+                if "children" in node:
+                    node["children"] = [highlight_matches(c) for c in node["children"]]
+                return node
+            option["series"][0]["data"] = [highlight_matches(tree_data)]
+
+        st_echarts(options=option, height="900px", theme="dark")
+
+        with st.expander("Tip Color Legend"):
+            cols = st.columns(5)
+            for i, (variant, color) in enumerate(sorted(VARIANT_COLORS.items())):
+                cols[i % 5].markdown(f'<span style="display:inline-block;width:12px;height:12px;background:{color};border-radius:2px;margin-right:4px"></span> {variant}', unsafe_allow_html=True)
+    else:
+        st.warning("Consensus tree file not found — run IQ-TREE first")
 
 elif page == "Mutation Analysis":
     st.title("Mutation Analysis")
@@ -157,7 +223,7 @@ elif page == "Mutation Analysis":
 
     with tab1:
         st.subheader("Per-Position Mutation Frequency")
-        st.markdown(f"**{len(mf)}** positions analyzed. **{(mf['mutation_frequency'] >= 0.05).sum()}** positions with ≥5% mutation frequency.")
+        st.markdown(f"**{len(mf)}** positions analyzed. **{(mf['mutation_frequency'] >= 0.05).sum()}** positions with >=5% mutation frequency.")
 
         threshold = st.slider("Frequency threshold", 0.0, 1.0, 0.05, 0.01)
         filtered = mf[mf["mutation_frequency"] >= threshold]
@@ -180,7 +246,7 @@ elif page == "Mutation Analysis":
             pos = st.number_input("Show mutations at position", 1, len(mf), 795)
             per_pos = am[am["position"] == pos].head(20)
             if len(per_pos) > 0:
-                st.write(f"**Position {pos}**: {per_pos['ref_base'].iloc[0]} → {', '.join(per_pos['query_base'].unique())}")
+                st.write(f"**Position {pos}**: {per_pos['ref_base'].iloc[0]} -> {', '.join(per_pos['query_base'].unique())}")
                 st.dataframe(per_pos[["sequence", "query_base"]].head(10), hide_index=True, use_container_width=True)
 
     with tab3:
