@@ -43,14 +43,16 @@ def clade_to_dict(clade):
     name = clade.name or ""
     variant = name.split("_")[0] if name else ""
     color = VARIANT_COLORS.get(variant, "#cccccc")
-    node = {"name": name or "internal"}
+    display = variant if name else ""
+    node = {"name": display}
+    if name and display != name:
+        node["fullName"] = name
     if clade.branch_length is not None:
         node["value"] = round(clade.branch_length, 6)
     if clade.clades:
         node["children"] = [clade_to_dict(c) for c in clade.clades]
     if not clade.clades:
         node["itemStyle"] = {"color": color}
-        node["variant"] = variant
     return node
 
 @st.cache_resource
@@ -149,15 +151,7 @@ elif page == "Interactive Tree":
             "tooltip": {
                 "trigger": "item",
                 "triggerOn": "mousemove",
-                "formatter": """function(params) {
-                    var name = params.name || 'internal';
-                    if (name === 'internal') return '';
-                    var val = params.value ? ' (branch: ' + params.value + ')' : '';
-                    var data = params.data || {};
-                    var variant = data.variant ? '<br/>Variant: <b>' + data.variant + '</b>' : '';
-                    var colorStyle = data.itemStyle ? 'color:' + data.itemStyle.color : '';
-                    return '<span style=\"display:inline-block;width:10px;height:10px;border-radius:50%;' + colorStyle + ';margin-right:6px\"></span><b>' + name + '</b>' + val + variant;
-                }"""
+                "confine": True
             },
             "series": [{
                 "type": "tree",
@@ -178,12 +172,7 @@ elif page == "Interactive Tree":
                     "color": label_color,
                     "fontSize": font_size,
                     "position": label_pos,
-                    "rotate": 0,
-                    "formatter": """function(params) {
-                        var name = params.name || '';
-                        if (name === 'internal' || !name) return '';
-                        return name.split('_')[0];
-                    }"""
+                    "rotate": 0
                 },
                 "lineStyle": {
                     "color": line_color,
@@ -191,15 +180,15 @@ elif page == "Interactive Tree":
                     "curveness": 0.5
                 },
                 "leaves": {
-                    "label": {"color": label_color, "fontSize": font_size}
+                    "label": {"fontSize": font_size}
                 }
             }]
         }
 
         if search_term:
             def highlight_matches(node):
-                name = node.get("name", "")
-                matched = search_term in name.lower() and name != "internal"
+                name = (node.get("name", "") + " " + node.get("fullName", "")).lower()
+                matched = search_term in name
                 if matched:
                     node["label"] = {"color": "#FACC15", "fontSize": font_size + 2, "fontWeight": "bold"}
                 if "children" in node:
