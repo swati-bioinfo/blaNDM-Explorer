@@ -1,0 +1,57 @@
+# Data files (large, can be regenerated)
+data/
+results/
+*.fasta
+*.fasta.*
+
+# Browser/MCP session logs
+.playwright-mcp/
+
+# Embedded git repos (not submodules)
+biotools-mcp-server/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# One-off utility scripts (not part of pipeline)
+fix_note*.py
+rebuild_note.py
+embed_images.py
+update_note_with_images.py
+build_report.py
+create_docx.py
+fruits.txt
+
+# OpenCode internal
+AGENTS.md
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Environment
+.env
+venv/
+.venv/
+
+# Batch output artifacts
+KpNDM_*
+tmp_*_tag.txt
+M11CC_Out/
+
+# OpenCode temp files
+_opencode*
+opencode*
+C:*Users*
+&#10;Users*
+
+# One-off JSON artifacts
+scripts/embed_images.json
+scripts/small_tags.json
+scripts/*.json
+
+# Temp text files
+fixed_note_content.txt
+tmp_*.txt
