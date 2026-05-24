@@ -180,9 +180,9 @@ elif page == "Interactive Tree":
                     "position": label_pos,
                     "rotate": 0,
                     "formatter": """function(params) {
-                        var data = params.data || {};
-                        if (data.variant) return data.variant;
-                        return '';
+                        var name = params.name || '';
+                        if (name === 'internal' || !name) return '';
+                        return name.split('_')[0];
                     }"""
                 },
                 "lineStyle": {
