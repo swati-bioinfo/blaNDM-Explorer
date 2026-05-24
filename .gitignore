@@ -9,6 +9,8 @@ results/*
 !data/*.contree
 !results/variant_frequencies.csv
 !results/mutation_frequencies_per_position.csv
+!results/mutation_frequency_barplot.png
+!results/mutation_heatmap.png
 # all_mutations.csv is 1.1MB — skip unless you need per-sequence mutation explorer
 
 # Browser/MCP session logs
